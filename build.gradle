@@ -1,0 +1,29 @@
+configurations {
+
+    "the directory name of your detector code"
+}
+
+dependencies {
+    compileOnly 'com.android.tools.build:gradle:7.x.x'
+    compileOnly 'com.android.tools.lint:lint-api:30.x.x'
+    compileOnly 'com.android.tools.lint:lint-checks:30.x.x'
+    implementation project(':lint-sdk')
+    lintChecks project(':lint-sdk')
+
+}
+
+jar{
+    manifest{
+        attributes('Lint-Registry-v2': 'com.lint.IssueRegistry')
+    }
+
+}
+//application plugin, which can run the xxx.java in main directory automatically.
+ext {
+
+    javaMainClass = "com.example.code_generator.CreateCodeDetector"
+}
+application {
+    mainClassName = javaMainClass
+
+}
