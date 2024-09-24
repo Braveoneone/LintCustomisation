@@ -1,4 +1,5 @@
 # LintCustomisation
+Please indicate the source code when forwarding:Yiyi Wang
 Implement the Lint Detector Generator by myself
 
 build.gradle: regarding how to write your build.gradle in Android Studio
