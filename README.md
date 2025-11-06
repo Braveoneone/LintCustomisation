@@ -4,7 +4,7 @@
 **Author:** Yiyi Wang
 *(Please indicate the source code when forwarding)*
 
-This project implements a custom Lint Detector Generator.
+This project implements a custom Lint Detector Generator. In large-scale software development projects, this tool successfully achieved automated scanning of Java class names, function names, and illegal calling statements. Additionally, a batch Lint rule generation script was written, significantly enhancing the efficiency of the development team's code standard review.
 
 ## File Descriptions
 
@@ -29,7 +29,7 @@ This project implements a custom Lint Detector Generator.
 > 原作者：Yiyi Wang
 > 转载请注明出处。
 
-本项目是一个用于自动生成 Android Lint 探测器（Detector）的工具。
+本项目是一个用于自动生成 Android Lint 探测器（Detector）的工具。在大型软件开发项目中，该工具成功实现了对 Java 类名、函数命名及非法调用语句的自动化扫描。此外，还编写了批量 Lint 规则生成脚本，显著提高了开发团队的代码规范审查效率。
 
 ---
 
